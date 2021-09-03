@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px){
+
+  .box{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    }
+
+    .sedans{
+        border-radius: 5px 5px 0 0;
+    }
+
+    .sedans_img, .suvs_img, .luxury_img{
+        margin: 50px 0 0 50px;
+        width: 65px;
+        height: 40px;
+    }
+    
+    .sedans_titulo, .suvs_titulo, .luxury_titulo{
+        font-size: 40px;
+        margin: 30px 0 0 50px;
+    }
+    
+    .sedans_texto, .suvs_texto, .luxury_texto{
+        font-size: 18px;
+        margin: 30px 85px 30px 50px;
+    }
+
+    .btn_sedans, .btn_suvs, .btn_luxury{
+        border-radius: 30px;
+        padding: 15px 41px;
+        font-size: 19px;
+        margin: 15px 70px 60px 50px;
+    }
+
+    .luxury{
+        border-radius: 0 0 5px 5px;
+    }
+
+}

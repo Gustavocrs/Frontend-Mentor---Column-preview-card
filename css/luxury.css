@@ -1,0 +1,17 @@
+.luxury{
+    width: 100%;
+    border-radius: 0 5px 5px 0;
+    background-color: hsl(179, 100%, 13%);
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_luxury{
+    border-radius: 20px;
+    border: solid #FFF .17em;
+    padding: 9px 21px;
+    font-size: 12px;
+    font-family: "Lexend Deca";
+    color: hsl(179, 100%, 13%);
+    margin: 33px 0 0 37px;
+}

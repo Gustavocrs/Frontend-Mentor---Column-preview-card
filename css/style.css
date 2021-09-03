@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+.container{
+    display: grid;
+    justify-content: center;
+    width: 100%;    
+    height: 100vh;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 100%;
+    width: 700px;
+    height: 380px;
+    margin: auto auto;
+}
+
+.sedans_img, .suvs_img, .luxury_img{
+    margin: 35px 0 0 35px;
+    width: 50px;
+    height: 30px;
+}
+
+.sedans_titulo, .suvs_titulo, .luxury_titulo{
+    text-transform: uppercase;
+    font-family: "Big Shoulders Display";
+    font-size: 30px;
+    color: #FFF;
+    margin: 15px 0 0 35px;
+}
+
+.sedans_texto, .suvs_texto, .luxury_texto{
+    font-family: "Lexend Deca";
+    color: #FFF;
+    opacity: 60%;
+    font-weight: 100;
+    font-size: 12px;
+    margin: 30px 35px;
+    line-height: 1.7;
+}
+
+.btn_sedans:hover, .btn_suvs:hover, .btn_luxury:hover{
+    background: transparent;
+    color: #FFF;
+}

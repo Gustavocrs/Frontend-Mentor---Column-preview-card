@@ -1,0 +1,16 @@
+.suvs{
+    width: 100%;
+    background-color:hsl(184, 100%, 22%);
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_suvs{
+    border-radius: 20px;
+    border: solid #FFF .17em;
+    padding: 9px 21px;
+    font-size: 12px;
+    font-family: "Lexend Deca";
+    color: hsl(184, 100%, 22%);
+    margin: 33px 0 0 37px;
+}
